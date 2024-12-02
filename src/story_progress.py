@@ -1,3 +1,8 @@
+# Needs Improvement: The Langgraph implementation has been simplified to just the LLM call for now. 
+# You'll need to re-integrate your tool usage logic here once you've clarified how you want the tools to interact with the story flow. 
+# The placeholder YourLLM class needs to be replaced with your actual LLM implementation. 
+# A basic example is provided, but you'll have to adapt it to your LLM's API.
+
 # src/story_progress.py
 from langchain_core.messages import HumanMessage, AIMessage # Import AIMessage
 from langgraph.graph import StateGraph, MessagesState
